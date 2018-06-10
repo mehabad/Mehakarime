@@ -328,7 +328,12 @@ p {
 }
 
 .stilartWrapper h3 {
-    text-align: center;
+
+    margin: 0;
+    padding: 0;
+    width: 35vw;
+    padding-bottom: 1em;
+    color: cadetblue;
 }
 
 .stilartWrapper p {
@@ -371,10 +376,10 @@ p {
 }
 
 
-
-
 .cv {
 
     text-align: center;
 
 }
+
+.footer {}
