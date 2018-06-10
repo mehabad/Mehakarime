@@ -334,6 +334,7 @@ p {
     width: 35vw;
     padding-bottom: 1em;
     color: cadetblue;
+    padding-left: 8em;
 }
 
 .stilartWrapper p {
@@ -382,4 +383,3 @@ p {
 
 }
 
-.footer {}
