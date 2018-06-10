@@ -346,6 +346,10 @@ p {
 
 }
 
+
+.footer {}
+
+
 .stilartWrapper img {
 
     margin: 0;
@@ -380,6 +384,11 @@ p {
 .cv {
 
     text-align: center;
+
+}
+
+footer {
+    padding: 1em;
 
 }
 
