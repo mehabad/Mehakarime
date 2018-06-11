@@ -127,6 +127,7 @@ h1 {
     nav {
         display: flex;
         flex-direction: column;
+        font-size: 3px;
 
 
     }
@@ -393,17 +394,159 @@ footer {
 }
 
 @media screen and (max-width:900px) {
-    stilartWrapper p {
-        width: 100%;
-        padding: 0 10px
+    .stilartWrapper p {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    stilartWrapper img {
+        display: flex;
+        flex-direction: column;
+    }
+    .stilartWrapper a {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 75%;
+
+    }
+    .stilartWrapper h3 {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: -45%;
+    }
+
+    .stilartWrapper a {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 5%;
     }
 }
 
 
-@media (max-width:600px) {
-    stilartWrapper p {
-        width: 100%;
-        padding: 0 10px;
-        margin-left: -40%
+
+@media screen and (max-width:768px) {
+    .stilartWrapper {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: -40%;
     }
+
+    .stilartWrapper p {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 75%;
+
+    }
+    .stilartWrapper h1 {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 75%;
+    }
+    .stilartWrapper a {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 75%;
+    }
+
+
+    .stilartWrapper h3 {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 48%;
+    }
+
+}
+
+
+
+
+@media (max-width:580px) {
+    .stilartWrapper {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: -40%;
+
+    }
+    .stilartWrapper p {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 75%;
+
+    }
+    .stilartWrapper h1 {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-left: 50%;
+
+    }
+
+    .stilartWrapper a {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 75%;
+
+    }
+
+
+    .stilartWrapper h3 {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 35%;
+    }
+}
+
+
+@media (max-width:350px) {
+    .stilartWrapper {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: -40%;
+
+    }
+    .stilartWrapper p {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 75%;
+
+    }
+
+    .stilartWrapper h1 {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-left: 50%;
+
+    }
+
+    .stilartWrapper a {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 75%;
+    }
+    .stilartWrapper h3 {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 75%;
+    }
+
+
+
 }
