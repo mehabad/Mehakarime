@@ -418,11 +418,16 @@ footer {
         margin-left: -45%;
     }
 
-    .stilartWrapper a {
+    .stilartWrapper h1 {
         display: flex;
         flex-direction: column;
         width: 80%;
         margin-left: 5%;
+    }
+
+    .footer {
+        width: 80em;
+
     }
 }
 
@@ -464,6 +469,13 @@ footer {
         margin-left: 48%;
     }
 
+    footer {
+        width: 90em;
+        margin-left: -30em;
+
+
+
+    }
 }
 
 
@@ -488,8 +500,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 50%;
-        margin-left: 50%;
-
+        margin-left: 10em
     }
 
     .stilartWrapper a {
@@ -522,7 +533,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 80%;
-        margin-left: 75%;
+        margin-left: 7g5%;
 
     }
 
@@ -546,7 +557,13 @@ footer {
         width: 80%;
         margin-left: 75%;
     }
+    footer {
+        width: 90em;
+        margin-left: -30em;
 
+
+
+    }
 
 
 }
